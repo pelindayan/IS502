@@ -1,0 +1,265 @@
+{
+    "intents":[
+        {
+             "tag":"register",
+             "patterns":["How can I register?","Register"],
+             "answer":["What is your student status?"]
+        },
+        {
+             "tag":"prep student",
+             "patterns":["Students to Basic English Department", "Preperation school", "Basic English"],
+             "answer":["General information about Interactive Registration for Students to Basic English Department. Link: http://oidb.metu.edu.tr/en/students-basic-english-department"]
+        },
+        {
+             "tag":"continuing student",
+             "patterns":["Registrations of Students Continuing Their Program (Graduate and Undergraduate Programs, the Higher Vocational School)", "Graduate", "Undergraduate"],
+             "answer":["General information about Interactive Registration for Registrations of Students Continuing Their Program. Link: http://oidb.metu.edu.tr/en/students-continuing-their-program"]
+        },
+        {
+             "tag":"international student",
+             "patterns":["International Students to Undergraduate Programs", "International", "International student"],
+             "answer":["General information about Interactive Registration for International Students to Undergraduate Programs. Link: http://oidb.metu.edu.tr/en/2021-2022-academic-year-registrations-international-students-undergraduate-programs"]
+        },
+        {
+             "tag":"major or minor student",
+             "patterns":["Students to Double Major or Minor Programs", "Major program", "Minor program", "major", "minor"],
+             "answer":["General information about Interactive Registration for Students to Double Major/Minor Programs. Link: http://oidb.metu.edu.tr/en/students-double-majorminor-programs"]
+        },
+        {
+             "tag":"Transfer Students",
+             "patterns":["Transfer Students"],
+             "answer":["General information about Interactive Registration for Transfer Students. Link: http://oidb.metu.edu.tr/en/registration-transfer-students"]
+        },
+        {
+             "tag":"SUNY student",
+             "patterns":["Students of SUNY Programs", "SUNY", "SUNY program", "suny"],
+             "answer":["General information about Interactive Registration for Students of SUNY Programs. Link: http://oidb.metu.edu.tr/en/registrations-students-suny-programs"]
+        },
+        {
+             "tag":"Special student",
+             "patterns":["Special Students", "Special"],
+             "answer":["General information about Interactive Registration for Special Students. Link: https://oidb.metu.edu.tr/en/special-students"]
+        },
+        {
+             "tag":"Withdraw?",
+             "patterns":["How can I withdraw?", "course withdraw", "withdraw", "withdrawal"],
+             "answer":["General information about course withdrawal. Link: http://oidb.metu.edu.tr/en/course-withdrawal."]
+        },
+        {
+             "tag":"classroom locations",
+             "patterns":["How can I know location of the classrooms?", "classroom location"],
+             "answer":["Location of classrooms with their buildings on METU Campus can be seen via the following link. Link: https://www.metu.edu.tr/location-classrooms-metu-campus"]
+        },
+        {
+             "tag":"academic rules",
+             "patterns":["How can I know academic rules and regulations?", "academic rules", "academic regulations"],
+             "answer":["General information about academic rules and regulations. Link: http://oidb.metu.edu.tr/en/academic-rules-and-regulations"]
+        },
+        {
+             "tag":"student applications",
+             "patterns":["How can I access student applications in one place?", "student applications"],
+             "answer":["Student Portal allows METU students to access applications, informatives and other contents.Link: https://student.metu.edu.tr/"]
+        },
+        {
+             "tag":"International Students Office",
+             "patterns":["How can I access International Students Office?", "International Students Office", "student Office"],
+             "answer":["General information about International Students Office. Link: http://iso.metu.edu.tr/en"]
+        },
+        {
+             "tag":"admission to graduate",
+             "patterns":["How can I know application for admission to graduate programs?", "admission to graduate"],
+             "answer":["General information about application for admission to graduate programs. Link: https://oibs2.metu.edu.tr/Ms_Phd_Applications/"]
+        },
+        {
+             "tag":"follow minor or major application",
+             "patterns":["How can I know my application for double major or minor application?", "my application for double major or minor application"],
+             "answer":["General information about Double Major/Minor Application. Link: https://oibs2.metu.edu.tr/DMM_Application/"]
+        },
+        {
+             "tag":"tracking transfer application",
+             "patterns":["How can I track my transfer application?", "transfer application"],
+             "answer":["General information about transfer application. Link: https://oibs2.metu.edu.tr/Transfer_Application_247/"]
+        },
+        {
+             "tag":"English Proficiency Exam Application",
+             "patterns":["How can I track my English Proficiency Exam Application?", "English Proficiency Exam Application", "Proficiency", "Proficiency exam"],
+             "answer":["General information about English Proficiency Exam Application. Link: https://oibs2.metu.edu.tr/Epe_Application/"]
+        },
+        {
+             "tag":"online application educational certificate",
+             "patterns":["How can I get an online application educational certificate?", "online application educational certificate"],
+             "answer":["General information about online application educational certificate. Link: https://oibs2.metu.edu.tr/Educational_Form_Application/"]
+        },
+        {
+             "tag":"undergraduate programs for International Students",
+             "patterns":["How can I track application program to undergraduate programs for International Students?", "undergraduate programs for International Students"],
+             "answer":["General information about application program to undergraduate programs for International Students. Link: https://oibs2.metu.edu.tr/Application_for_International_Students_to_Undergraduate_Programs_299/"]
+        },
+        {
+             "tag":"transcription online",
+             "patterns":["How can I get transcription online?", "transcription online"],
+             "answer":["General information about online application transcript. Link: https://oibs2.metu.edu.tr/Transcript/"]
+        },
+        {
+             "tag":"application for scholarship?",
+             "patterns":["How can I make an application for scholarship?", "scholarship application", "scholarship"],
+             "answer":["General information about application for scholarship. Link: https://application.metu.edu.tr/?lang=EN#"]
+        },
+
+        {
+            "tag":"studentCertificate",
+            "patterns":["How can I make application for student certificate?", "certificate"],
+            "answer":[" Online application student certificate can be made via Student Portal. Link: https://student.metu.edu.tr/"]
+        },
+        {
+            "tag":"studentInformation",
+            "patterns":["How can I know student information?", "Student information"],
+            "answer":["Student information can be accessed via Student Portal. Link: https://student.metu.edu.tr/"]
+        },
+        {
+            "tag":"beforeRegistration",
+            "patterns":["How can I access necessary information before registration?","before registration"],
+            "answer":["Course capacity, program course details and program details are services that help METU students to get information before registration. Those services can be accessed via Student Portal. Link: https://student.metu.edu.tr/"]
+        },
+        {
+            "tag":"courceEvaluation",
+            "patterns":["How can I access course evaluation?", "course evaluation"],
+            "answer":["Online student course evaluation service can be accessed via Student Portal. Link: https://student.metu.edu.tr/"]
+        },
+        {
+            "tag":"cources",
+            "patterns":["How can I know courses?"],
+            "answer":["View Program Course Details service in Student Portal allows METU students to gather information about courses. Link: https://student.metu.edu.tr/"]
+        },
+        {
+            "tag":"programQualification",
+            "patterns":["What are program qualifications?", "qualifications"],
+            "answer":["information about program qualifications. Link: http://program.metu.edu.tr/en"]
+        },
+        {
+            "tag":"prrotectAcademic",
+            "patterns":["Is there any service to protect academic works in METU?", "protect academic"],
+            "answer":["OpenMETU application provide institutions to use these DLP-SHSs to manage their own knowledge resources, assess their potential, and contribute to interdisciplinary studies through raising academic visibility. Link: https://open.metu.edu.tr/"]
+        },
+        {
+            "tag":"onlineEducation",
+            "patterns":["Is there online or offline education platform in METU?", "online or ofline"],
+            "answer":["METU CEC (Continuing Education Center) enables to METU students to reach online educations. Link: https://sem.metu.edu.tr/"]
+        },
+        {
+            "tag":"generalInfo",
+            "patterns":["How can I reach general information about METU?", "general Information"],
+            "answer":["METU at a glance shows general information about METU. Link: http://ilkbakista.odtu.edu.tr/english/"]
+        },
+        {
+            "tag":"Library",
+            "patterns":["How can I reach general information about METU library?", "library"],
+            "answer":["General information about METU library. Link: http://lib.metu.edu.tr/tr"]
+        },
+        {
+            "tag":"metumap",
+            "patterns":[" How can I reach METU map?", "METU map"],
+            "answer":["METU map can be seen in the following link. All departments, social building, sport halls, Teknokent and other facilities can be seen in the map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"facilities",
+            "patterns":["How can I get to any facilities in METU?", "facilities"],
+            "answer":["President’s Office, Office of Student Affairs, library, Dining Hall, Cultural & Conventional Center, all academic departments, social buildings, sport halls, Teknokent and other facilities can be seen in the map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"presidentOffice",
+            "patterns":["Where is the President’s Office?", "president","president’s", "President’s Office?"],
+            "answer":["President’s Office can be seen in the following map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"studentAffairs",
+            "patterns":["How can I get to Office of Student Affairs?", "student affairs"],
+            "answer":["Office of Student Affairs can be seen in the following map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"KKM",
+            "patterns":["How can I get to Cultural & Conventional Center?", "KKM", "Conventional"],
+            "answer":[" Cultural & Conventional Center can be seen in the following map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"departmentBuildings",
+            "patterns":["How can I get to department buildings?", "department buildings", "department"],
+            "answer":["Departments can be seen in the following map.Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"teknokent",
+            "patterns":["How can I get to Office of Teknokent?", "Teknokent", "teknokent"],
+            "answer":["Teknokent can be seen in the following map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"socialServices",
+            "patterns":["What are social services in METU?", "social services"],
+            "answer":["Shopping, Accommodation, Food & Drink, Health, and Banking & Post Office. Moreover, social clubs are another aspect of social concepts. Link: https://www.metu.edu.tr/tr (Services subsection)"]
+        },
+        {
+            "tag":"shoping",
+            "patterns":["How is shopping in METU?", "shoping"],
+            "answer":["General information about shopping. Link: https://www.metu.edu.tr/shopping"]
+        },
+        {
+            "tag":"socialBuilding",
+            "patterns":["How can I get to Office of social buildings?", "social buildings"],
+            "answer":["Social buildings can be seen in the following map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"sportsHall",
+            "patterns":["How can I get to sport halls?", "sport", "sports hall"],
+            "answer":["Sport halls can be seen in the following map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"dining",
+            "patterns":["How can I get to Dining Hall?", "dining", "dining hall"],
+            "answer":["Dining Hall can be seen in the following map. Link: https://www.metu.edu.tr/tr/DLP-SHS/files/odtu-kampus-haritasi.pdf"]
+        },
+        {
+            "tag":"accommodation",
+            "patterns":["How is accommodation in METU?", "accommodation", "yurt", "dorm"],
+            "answer":["General information about accommodation. Link: https://www.metu.edu.tr/accommodation"]
+        },
+        {
+            "tag":"foodservice",
+            "patterns":["How METU provide food service?", "food service", "food"],
+            "answer":["General information about food & drink. Link: https://www.metu.edu.tr/food-drink"]
+        },
+        {
+            "tag":"health",
+            "patterns":["What is health service in METU?", "health"],
+            "answer":["General information about health. Link: https://www.metu.edu.tr/health"]
+        },
+        {
+            "tag":"postoffice",
+            "patterns":["What is bank and post office service in METU?", "bank", "post office"],
+            "answer":["General information about bank and post office. Link: https://www.metu.edu.tr/banking-post-office"]
+        },
+        {
+            "tag":"studentclublist",
+            "patterns":["What are student clubs in METU?", "student clubs"],
+            "answer":["Student clubs in METU are listed here. Link: https://www.metu.edu.tr/student-clubs-and-societies"]
+        },
+        {
+            "tag":"studentclubwebpages",
+            "patterns":["How can I know student clubs?", "student Clubs"],
+            "answer":["Several student clubs have their own websites such that these websites can be accessible from the following link.Link: https://www.metu.edu.tr/student-clubs-and-societies"]
+        },
+        {
+            "tag":"studentclubcalendar",
+            "patterns":["How can I reach activity calendar of the student clubs?", "calendar student club"],
+            "answer":["Schedules of activities can be seen in the following link. However, this website cannot show schedules of activities right now. Link: http://kim.metu.edu.tr/en"]
+        },
+        {
+            "tag":"studntclublocation",
+            "patterns":["How can I get to building of student clubs?", "building student club"],
+            "answer":["The following link illustrates METU Interactive Map showing headquarters of the student clubs. Link: https://route.metu.edu.tr/category/35/rota/2/42/sincan"]
+        },
+        {
+            "tag":"clubcount",
+            "patterns":["What is the number of student clubs at METU?", "number of student club"],
+            "answer":["104 student clubs exist in METU. Link: http://ilkbakista.odtu.edu.tr/english/"]
+        }
+    ]
+}
